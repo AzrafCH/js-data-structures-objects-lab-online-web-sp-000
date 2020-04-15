@@ -19,7 +19,7 @@ function deleteFromDriverByKey() {
 function destructivelyDeleteFromDriverByKey() {
   /* this function should work the same as deleteFromDriverByKey()
   but it should mutate the driver passed in.
-  Be sure and consider whether dot-notation or bracket-notation might affect your solution. 
-  HINT: You might find deleteFromDriverByKey() to be a bit hard to write non-destructively. 
+  Be sure and consider whether dot-notation or bracket-notation might affect your solution.
+  HINT: You might find deleteFromDriverByKey() to be a bit hard to write non-destructively.
   Think about how we learned to use Object.assign()*/
 }
