@@ -15,3 +15,9 @@ function deleteFromDriverByKey() {
   It should delete the key/value pair for the key that was passed in from the driver Object.
   This should all not actually mutate the driver passed in.*/
 }
+
+function destructivelyDeleteFromDriverByKey() {
+  /* this function should work the same as deleteFromDriverByKey()
+  but it should mutate the driver passed in.
+  Be sure and consider whether dot-notation or bracket-notation might affect your solution. */
+}
