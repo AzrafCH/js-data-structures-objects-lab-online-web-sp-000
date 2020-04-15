@@ -12,9 +12,11 @@ function updateDriverWithKeyAndValue(driver, key, value) {
 
 }
 
-function destructivelyUpdateDriverWithKeyAndValue() {
+function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
   /* this function should work the same as updateDriverWithKeyAndValue()
   but it should mutate the driver parameter passed in */
+  driver[key] = value;
+  return driver;
 }
 
 function deleteFromDriverByKey() {
