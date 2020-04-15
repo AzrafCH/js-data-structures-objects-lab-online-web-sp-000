@@ -1,4 +1,7 @@
 // Write your solution in this file!
+
+const driver = {}
+
 function updateDriverWithKeyAndValue(driver, key, value) {
   /* this function should take in three arguments: a driver Object, a key and a value */
   /* This function should not mutate the driver */
