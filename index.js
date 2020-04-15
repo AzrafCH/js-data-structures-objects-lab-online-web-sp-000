@@ -3,7 +3,6 @@ function updateDriverWithKeyAndValue(driver, key, value) {
   /* this function should take in three arguments: a driver Object, a key and a value */
   /* This function should not mutate the driver */
   /*and should return a new driver that has an updated value for the key passed in.*/
- const driver = {}
  driver.name = "sam"
 
  const newDriver = {...driver};
