@@ -4,9 +4,7 @@ function updateDriverWithKeyAndValue(driver, key, value) {
   /* This function should not mutate the driver */
   /*and should return a new driver that has an updated value for the key passed in.*/
  const newDriver = {...driver};
-
  newDriver[key] = value;
-
  return newDriver;
 
 }
